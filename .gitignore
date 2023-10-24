@@ -13,6 +13,13 @@ coverage
 out/
 build
 
+# astro
+.astro/
+
+# rust
+Cargo.lock
+target/
+
 # misc
 .DS_Store
 *.pem

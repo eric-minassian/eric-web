@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const response = await fetch("http://localhost:8080/api/hello");
+const data = await response.json();
+---
+
+<Layout title="Welcome to Astro.">
+  <main>{data.message}</main>
+</Layout>
